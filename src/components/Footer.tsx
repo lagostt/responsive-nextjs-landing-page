@@ -116,10 +116,10 @@ return (
       
       <div
     className="">
-    <div className="mb-4 flex justify-center font-semibold uppercase md:justify-start lg:justify-start">
+    <div className="mb-4 flex justify-center font-semibold uppercase  lg:justify-start">
       <span>Nos réseaux sociaux:</span>
     </div>
-    <div className="mb-4 flex flex-col items-start justify-start  ">
+    <div className="mb-4 flex flex-col lg:items-start lg:justify-start items-center   ">
       <a href="#!" className="my-3 text-neutral-800  ">
         <p className="flex items-center justify-center md:justify-start">
         <svg
