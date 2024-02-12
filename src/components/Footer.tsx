@@ -116,25 +116,29 @@ return (
       
       <div
     className="">
-    <div className="mb-4 flex justify-center font-semibold uppercase md:justify-start lg:justify-center">
+    <div className="mb-4 flex justify-center font-semibold uppercase md:justify-start lg:justify-start">
       <span>Nos réseaux sociaux:</span>
     </div>
-    <div className="mb-4 flex flex-col items-center justify-center md:justify-start lg:justify-center">
-      <a href="#!" className="m-3 text-neutral-800  ">
+    <div className="mb-4 flex flex-col items-start justify-start  ">
+      <a href="#!" className="my-3 text-neutral-800  ">
+        <p className="flex items-center justify-center md:justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-4 w-4"
+          className=" mr-3 h-4 w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
         </svg>
+        Facebook
+        </p>
       </a>
       
-      <a href="#!" className="m-3 text-neutral-800 ">
+      <a href="#!" className="my-3 text-neutral-800 ">
+        <p className="flex items-center justify-center md:justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
+          className=" mr-3 h-5 w-5"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -142,17 +146,22 @@ return (
             fillRule="evenodd"
             clipRule="evenodd" />
         </svg>
+        Google plus
+        </p>
       </a>
     
-      <a href="#!" className="m-3 text-neutral-800 ">
+      <a href="#!" className="my-3 text-neutral-800 ">
+        <p className="flex items-center justify-center md:justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-4 w-4"
+          className=" mr-3 h-4 w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
             d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
         </svg>
+        Linkedin
+        </p>
       </a>
     
     </div>
