@@ -28,7 +28,7 @@ export default function Numbers(){
     const ItemCard = (props:CardProps) =>
     {
         return (
-        <div className=" p-8 mx-12 basis-1/4 flex flex-col justify-center items-center border-2 border-neutral-100 bg-neutral-100 rounded-md">
+        <div className=" p-8 mx-12 lg:my-0 my-8 basis-1/4 flex flex-col justify-center items-center border-2 border-neutral-100 bg-neutral-100 rounded-md">
             <div className=" text-4xl text-center font-bold text-neutral-800">
                 {props.value}
             </div>
@@ -44,7 +44,7 @@ export default function Numbers(){
       <div className=" text-center text-neutral-800 text-4xl font-bold">
               Ils nous ont fait confiance
       </div>
-      <div className="flex flex-row justify-center w-full pt-36">
+      <div className="flex lg:flex-row flex-col justify-center w-full pt-36">
            {
                 Items.map((item, index)=>{
                     return (

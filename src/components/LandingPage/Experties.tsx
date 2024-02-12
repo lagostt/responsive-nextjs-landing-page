@@ -19,7 +19,7 @@ export default function Experties() {
     const cardItems = [
         {
             title:"Gestion des relations avec les salariés et les tiers",
-            body:"Nous nous occupons du cadre règlementaire et légal de vos paies afin d’optimiser vos coûts et votre temps. Aussi, nous mettons à votre disposition notre savoir-faire afin de mieux connaître vos clients et d’être pro actif dans vos relations.",
+            body:"Nous optimisons vos coûts et votre temps en gérant vos paies selon les normes, tout en utilisant notre expertise pour renforcer vos relations client.",
             icon:<Bank height={iconSize} width={iconSize}/>
         },
         {
@@ -41,14 +41,14 @@ export default function Experties() {
 
     const CardItem = (props:CardProps) => {
         return (
-            <div className="h-[40vh] flex-grow flex flex-col col-span-1 bg-red-200 border-2 border-red-200 p-8 m-5 rounded-md ">
+            <div className=" lg:h-[40vh] h-[50vh] flex-grow flex flex-col col-span-1 justify-center items-center bg-red-200 border-2 border-red-200 p-5 my-3 mx-3 rounded-md ">
                 <div className=" flex justify-center mb-5 ">
                     {props.Icon}
                 </div>
-                <div className=" text-center text-neutral-800 text-xl font-bold mb-5 ">
+                <div className=" text-center text-neutral-800 lg:text-xl text-lg font-bold mb-5 ">
                     {props.title}
                 </div>
-                <div className=" text-center text-neutral-800 text-lg " style={{whiteSpace:'pre-line'}}>
+                <div className=" text-center text-neutral-800 lg:text-lg text-base " style={{whiteSpace:'pre-line'}}>
                     {props.body}
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function Experties() {
             <div className=" text-xl text-neutral-600 text-center pt-6 ">
             Nous vous accompagnons dans la vie de votre organisation et au long du parcours professionnel de vos collaborateurs en <br></br> nous appuyant sur plusieurs domaines d’expertise.
             </div>
-            <div className=" grid grid-cols-2 grid-rows-auto w-full px-16 pt-36 pb-20 ">
+            <div className=" grid lg:grid-cols-2 grid-cols-1 grid-rows-auto w-full px-8 pt-36 pb-20 ">
                {
                 cardItems.map((item, index)=>{
                     return (

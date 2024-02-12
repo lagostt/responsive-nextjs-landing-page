@@ -39,16 +39,16 @@ export default function Benifits(){
 
     const CardItem = (props:CardProps) => {
         return (
-            <div className=" flex flex-col basis-1/4 px-8 h-58 ">
-                <div className="flex flex-row justify-cener items-center h-[30%] pb-5">
+            <div className=" flex flex-col basis-1/4 px-8 h-58 py-8 ">
+                <div className="flex flex-row lg:justify-start justify-center  items-center h-[30%] pb-5">
                 <div className=" pr-4">
                     {props.Icon}
                 </div>
-                <div className=" text-start text-xl font-bold text-neutral-800 ">
+                <div className=" lg:text-start text-center text-xl font-bold text-neutral-800 ">
                     {props.title}
                 </div>
                 </div>
-                <div className=" text-start text-lg font-normal text-neutral-600 h-[70%] ">
+                <div className=" lg:text-start text-center text-lg font-normal text-neutral-600 h-[70%] ">
                     {props.body}
                 </div>
             </div>
@@ -58,13 +58,13 @@ export default function Benifits(){
     return (
         <div className="flex flex-col w-full pt-28 "  >
             <div className=" text-center text-neutral-800 ">
-           <span className="text-4xl font-bold"> Bienvenue chez </span> 
-           <span className=" font-normal text-4xl " >A9 Conseils</span>
+           <span className="lg:text-3xl text-2xl font-bold"> Bienvenue chez </span> 
+           <span className=" font-normal lg:text-4xl text-3xl " >A9 Conseils</span>
             </div>
             <div className=" text-xl text-neutral-600 text-center pt-6 ">
             Parce que vos meilleurs leviers business sont vos ressources humaines, notre ambition est de vous <br></br> conseiller dans toutes vos missions RH.
             </div>
-            <div className="flex lg:flex-row sm:flex-col w-full py-10 pt-36 pb-20 ">
+            <div className="flex lg:flex-row flex-col w-full py-10 pt-36 pb-20 ">
                {
                 cardItems.map((item, index)=>{
                     return <CardItem key={index} Icon={item.icon} title={item.title} body={item.body} />

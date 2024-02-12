@@ -5,7 +5,7 @@ import { url } from "inspector";
 export default function HeroBanner(){
     return (
         <div
-  className="relative bg-cover bg-no-repeat p-12 text-center h-[80vh] w-full  "
+  className="relative bg-cover bg-no-repeat p-12 text-center lg:h-[80vh] h-[50vh] lg:w-full w-auto  "
   style={{backgroundImage: 'url(static/images/banner-img-1.jpg)' }}>
   <div
     className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
