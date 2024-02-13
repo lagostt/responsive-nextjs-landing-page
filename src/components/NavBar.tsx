@@ -85,7 +85,7 @@ export default function NavBar(){
       </div>  
       <div className={'lg:hidden flex flex-row justify-between px-3 fixed top-0 z-10 w-full transition-all duration-700 '+(scrolled ? "bg-neutral-100 border-b-2 border-neutral-200":"bg-neutral-100 opacity-80")}>
       <div className=' flex flex-row justify-center ' >
-            <Image src={'/static/images/choose-logo.png'} alt={'Example'} width="100" height="80" />
+            <Image src={'/static/images/choose-logo.png'} alt={'Example'} width="80" height="50" />
       </div>
       <div className='flex flex-row justify-center px-3 items-center'>
         <Menu width='48' height='48' onClick={toggleDrawer} />
