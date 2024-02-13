@@ -10,7 +10,7 @@ return (
       <div className="">
         <h6
           className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-          A9 Conseils
+          Example
         </h6>
         <p>
         Nous sommes un cabinet de conseil en ressources humaines qui intervient de manière globale
@@ -83,7 +83,7 @@ return (
             <path
               d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
           </svg>
-          contact@a9conseils.com
+          contact@example.com
         </p>
         <p className="mb-4 flex items-center justify-center md:justify-start">
           <svg
@@ -173,7 +173,7 @@ return (
   <div className="bg-red-300 p-6 text-center" >
   <a
       className="font-semibold text-neutral-600 ">
-        A9 Conseils 
+        Example 
         </a>
     <span> © 2023, Tous droits réservés</span>
    

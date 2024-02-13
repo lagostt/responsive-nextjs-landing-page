@@ -72,7 +72,7 @@ export default function NavBar(){
       <div className="lg:flex flex-col hidden">
          <div className={" transition-all duration-700 px-16 h[5%] flex flex-row justify-between items-center fixed top-0 z-10 w-full "+(scrolled ? "bg-neutral-100 border-b-2 border-neutral-200":"bg-neutral-100 opacity-80")}>
             <div className=' flex flex-row justify-center ' >
-            <Image src={'/static/images/choose-logo.png'} alt={'A9 Conseils'} width="100" height="80" />
+            <Image src={'/static/images/choose-logo.png'} alt={'Example'} width="100" height="80" />
             </div>
             <div className={" flex flex-row justify-center text-slate-800 font-bold"} >
               {
@@ -85,7 +85,7 @@ export default function NavBar(){
       </div>  
       <div className={'lg:hidden flex flex-row justify-between px-3 fixed top-0 z-10 w-full transition-all duration-700 '+(scrolled ? "bg-neutral-100 border-b-2 border-neutral-200":"bg-neutral-100 opacity-80")}>
       <div className=' flex flex-row justify-center ' >
-            <Image src={'/static/images/choose-logo.png'} alt={'A9 Conseils'} width="100" height="80" />
+            <Image src={'/static/images/choose-logo.png'} alt={'Example'} width="100" height="80" />
       </div>
       <div className='flex flex-row justify-center px-3 items-center'>
         <Menu width='48' height='48' onClick={toggleDrawer} />

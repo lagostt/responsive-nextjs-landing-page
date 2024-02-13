@@ -8,8 +8,8 @@ import Footer from "../components/Footer";
 const roboto =  Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "A9 Conseils",
-  description: "A9 Conseils",
+  title: "Landing page",
+  description: "",
 };
 
 export default function RootLayout({

@@ -12,7 +12,7 @@ export default function HeroBanner(){
     style={{backgroundColor: 'rgba(0, 0, 0, 0.6)'}}>
     <div className="flex h-full items-center justify-center">
       <div className="text-white">
-        <h2 className="mb-4 text-4xl font-semibold">A9 Conseils</h2>
+        <h2 className="mb-4 text-4xl font-semibold">Example</h2>
         <h4 className="mb-6 text-xl font-semibold">NOUS SOMMES DES EXPERTS DANS NOTRE DOMAINE</h4>
         <button
           type="button"
